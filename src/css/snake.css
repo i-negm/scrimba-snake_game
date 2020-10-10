@@ -1,0 +1,13 @@
+.snake-grid {
+  width: 200px;
+  height: 200px;
+  border: solid 2px black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.snake-grid div {
+  width: 20px;
+  height: 20px;
+  background-color: blue;
+}

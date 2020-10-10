@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Static Template</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./src/css/index.css" />
+    <link rel="stylesheet" href="./src/css/snake.css" />
+    <title>Scrimba | Snake Game</title>
   </head>
   <body>
-    <h1>This is a static template, there is no bundler or bundling involved!</h1>
+    <h1>🐍 Snake Game</h1>
+    <button id="startBtn">Start/Restart</button>
+    <h2>Score: <span id="snake-score">0</span></h2>
+    <div class="snake-grid"></div>
+
+    <!-- JS -->
+    <script src="./src/js/logger.js"></script>
+    <script src="./src/js/snake.js"></script>
+    <script src="./src/js/index.js"></script>
   </body>
 </html>
