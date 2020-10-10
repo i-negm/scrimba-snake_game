@@ -6,8 +6,13 @@
   flex-wrap: wrap;
 }
 
-.snake-grid div {
+.snake-square {
   width: 20px;
   height: 20px;
+  box-sizing: content-box;
   background-color: blue;
+}
+
+.snake-body {
+  background: green;
 }
